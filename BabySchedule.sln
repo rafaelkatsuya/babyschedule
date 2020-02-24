@@ -5,16 +5,27 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabySchedule", "BabySchedule\BabySchedule.csproj", "{C2325472-98BA-4227-8D0E-6E5E5E34F013}"
 EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "BabySchedule installer", "BabySchedule installer\BabySchedule installer.aiproj", "{76F534FF-ED86-4C4D-8EBB-1739DC1341C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2325472-98BA-4227-8D0E-6E5E5E34F013}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{C2325472-98BA-4227-8D0E-6E5E5E34F013}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{C2325472-98BA-4227-8D0E-6E5E5E34F013}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{C2325472-98BA-4227-8D0E-6E5E5E34F013}.All|Any CPU.Build.0 = Release|Any CPU
+		{C2325472-98BA-4227-8D0E-6E5E5E34F013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2325472-98BA-4227-8D0E-6E5E5E34F013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2325472-98BA-4227-8D0E-6E5E5E34F013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2325472-98BA-4227-8D0E-6E5E5E34F013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F534FF-ED86-4C4D-8EBB-1739DC1341C8}.All|Any CPU.ActiveCfg = DefaultBuild
+		{76F534FF-ED86-4C4D-8EBB-1739DC1341C8}.All|Any CPU.Build.0 = DefaultBuild
+		{76F534FF-ED86-4C4D-8EBB-1739DC1341C8}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{76F534FF-ED86-4C4D-8EBB-1739DC1341C8}.Debug|Any CPU.Build.0 = DefaultBuild
+		{76F534FF-ED86-4C4D-8EBB-1739DC1341C8}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{76F534FF-ED86-4C4D-8EBB-1739DC1341C8}.Release|Any CPU.Build.0 = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
